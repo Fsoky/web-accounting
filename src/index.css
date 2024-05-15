@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  transition: 0.3s all;
+}
+
+body {
+  background: #04030C;
+  color: #fff;
+}

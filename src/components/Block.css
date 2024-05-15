@@ -1,0 +1,45 @@
+.block {
+  width: 100%;
+  background: #121024;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 18px;
+}
+
+.block span {
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.plus {
+  background: #137A63;
+}
+
+.minus {
+  background: #7A1320;
+}
+
+.date {
+  float: right;
+  color: #e2e2e2;
+}
+
+.block p {
+  margin-top: 15px;
+  background: #221f41;
+  padding: 10px;
+  border-radius: 12.5px;
+}
+
+@media screen and (max-width: 400px) {
+  .block span {
+    display: block;
+    text-align: center;
+  }
+
+  .block .date {
+    display: none;
+  }
+}
